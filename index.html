@@ -10,13 +10,14 @@
     </head>
     <body> 
     <a-scene background = "color: Black"> 
+    <a-camera position = "0 20 0"> </a-camera>
         <a-sky src = "Solarsystem/space.jpeg"> </a-sky>
-        <a-sphere src = "Solarsystem/sun.jpeg" position = "0 0 -10" radius = "4"> 
-        <a-sphere src = "Solarsystem/mercury.jpeg" position =  "10 0 -10" radius = "0.5"> </a-sphere>
-        <a-sphere src = "Solarsystem/venus.jpeg"position = "15 0 -10 " radius = "0.8"> </a-sphere>
-        <a-sphere src = "Solarsystem/earth.jpeg" position = "20 0 -10" radius = "1.2"> </a-sphere>
-        <a-sphere src = "Solarsystem/mars.jpeg"position = " 25 0 -10 " radius = "1.0"> </a-sphere>
-        <a-sphere src = "Solarsystem/jupiter.jpeg"position = "35 0 -10" radius = "2.0"> </a-sphere>
+        <a-sphere src = "Solarsystem/sun.jpeg" position = "0 0 -10" radius = "4"animation = "property: rotation; to: 0 360 0; loop: true; dur: 16000"> 
+        <a-sphere src = "Solarsystem/mercury.jpeg" position =  "10 0 -10" radius = "0.5" animation = "property: rotation; to: 0 360 0; loop: true; dur: 1800"> </a-sphere>
+        <a-sphere src = "Solarsystem/venus.jpeg"position = "15 0 -10 " radius = "0.8" animation = "property: rotation; to: 0 360 0; loop: true: dur: 2000"> </a-sphere>
+        <a-sphere src = "Solarsystem/earth.jpeg" position = "20 0 -10" radius = "1.2" animation = "property: rotation; to: 0 360 0; loop: true: dur: 2500"> </a-sphere>
+        <a-sphere src = "Solarsystem/mars.jpeg"position = " 25 0 -10 " radius = "1.0" animation = "property: rotation; to: 0 360 0; loop: true: dur: 3000"> </a-sphere>
+        <a-sphere src = "Solarsystem/jupiter.jpeg"position = "35 0 -10" radius = "2.0" animation = "property: rotation; to: 0 360 0; loop: true dur:"> </a-sphere>
        <a-entity> 
         <a-sphere src = "Solarsystem/saturn.jpeg" position = "45 0 -10" radius = "1.8" > </a-sphere>
         <a-torus position = "45 0 -10" arc = "360 "radius-tubular = "0.09" radius = "5.1" rotation = "90 0 0" color ="orange"> </a-torus>
@@ -24,13 +25,19 @@
         <a-torus position = "45 0 -10" arc = "360 "radius-tubular = "0.09" radius = "5.3" rotation = "90 0 0" color ="blue"> </a-torus>
         <a-torus position = "45 0 -10" arc = "360 "radius-tubular = "0.09" radius = "5.4" rotation = "90 0 0" color = "red"> </a-torus>
 
-
        </a-entity>
 
-</a-sphere>
 <a-sphere src = "Solarsystem/uranus.jpeg" position = " 50 0 -10" radius = "1.5"> </a-sphere>
 <a-sphere src = "Solarsystem/neptune.jpeg" position = "55" 0 -10 radius = "1.8"></a-sphere>
-          
+</a-sphere>
+<a-torus position = "0 0 -10" arc = "360 "radius-tubular = "0.04" radius = "14" rotation = "90 0 0 " color = "white"> </a-torus>  
+<a-torus position = "0 0 -10" arc = "360"radius-tubular = "0.04" radius = "22" rotation = "90 0 0" color = "white"> </a-torus> 
+<a-torus position = "0 0 -10 "arc = "360" radius-tubular = "0.04" radius = "18" rotation = "90 0 0 " color = "white"> </a-torus>
+<a-torus position = "0 0 -10" arc = "360" radius-tubular = "0.04" radius = "27" rotation = "90 0 0 " color = "white"> </a-torus>
+<a-torus position = "0 0 -10" arc = "360" radius-tubular = "0.04" radius = "36" rotation = "90 0 0"  color = "white"> </a-torus>
+<a-torus position = "0 0 -10 " arc = "360" radius-tubular = "0.04" radius = "46" rotation = "90 0 0" color = "white"> </a-torus>
+<a-torus position = "0 0 -10"  arc = "360" radius-tubular = "0.04" radius ="52"  rotation = "90 0 0" color = "white"> </a-torus>
+<a-torus position = "0 0 -10"  arc = "360" radius-tubular = "0.04" radius = "55" rotation = "90 0 0" color = "white"> </a-torus>
     </body>
 
 </html>
